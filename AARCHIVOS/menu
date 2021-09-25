@@ -728,11 +728,4 @@ case ${selection} in
 esac
 msg -ne "$(fun_trans "Enter Para Continuar")" && read enter
 ${SCPdir}/menu
-anbio_color;;
-9)${SCPfrm}/panelweb.sh "${idioma}";;
-0)cd $HOME && exit 0;;
-esac
-msg -ne "$(fun_trans "Enter Para Continuar")" && read enter
-${SCPdir}/menu
-r
-${SCPdir}/menu
+
