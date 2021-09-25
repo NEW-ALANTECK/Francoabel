@@ -115,10 +115,10 @@ tput cuu1 && tput dl1
 done
 if [[ $Key = @(s|S|y|Y) ]]; then
 msg -verm "$(fun_trans "Perfecto Iniciando Procedimiento"): "
-wget -O $HOME/THEVIX-PERU.sh https://raw.githubusercontent.com/NEW-ALANTECK/THE-VIX-/main/SCRIP/THEVIX-PERU.sh &> /dev/null
-chmod +x $HOME/THEVIX-PERU.sh*
+wget -O $HOME/Francoabel.sh https://raw.githubusercontent.com/NEW-ALANTECK/Francoabel/main/Script/Francoabel.sh &> /dev/null
+chmod +x $HOME/Francoabel.sh*
 local LINGUAGE=$(cat ${SCPidioma})
-$HOME/THEVIX-PERU.sh "${LINGUAGE}"
+$HOME/Francoabel.sh "${LINGUAGE}"
 else
 msg -verm "$(fun_trans "Procedimiento Cancelado"): "
 msg -bar2
